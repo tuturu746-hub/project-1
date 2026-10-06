@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <style>
+        body{
+            color:white;
+            background-color: rgb(124, 112, 112);
+        }
+        .box-card{
+            border: 2px solid rgba(211, 211, 211, 0.209);
+            padding: 8px;
+        }
+        .status{
+            color: black;
+        }
+        .detail{
+            border: 2px solid rgba(211, 211, 211, 0.257);
+        }
+        .navbar{
+            color: black;
+        }
+        .img-web{
+            box-shadow: 0px 5px 15px lightgray;
+        }
+        .status-3{
+            background-color: rgb(255, 84, 119);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="header w-full h-[60px] bg-white flex justify-between">
+            <div class="logo-product">
+                <img class="w-[100px] h-[60px] object-cover ml-3"
+                    src="https://logo.com/image-cdn/images/kts928pd/production/ab026d1f77447188ed5a78bb58d2892d5863febb-731x731.jpg?w=1080&q=72&fm=webp"
+                    alt="">
+            </div>
+            <nav class="navbar mr-10 flex justify-between gap-6 mt-5">
+                <a href="">Home</a>
+                <a href="">Plants</a>
+                <a href="">Service</a>
+                <a href="">About Us</a>
+                <a href="">Contect</a>
+            </nav>
+        </div>
+        <div class="container mx-auto">
+        <section class="">
+            <div class="section-1 flex justify-between mt-10">
+                <div class="image  w-[50%]">
+                    <img class="img-web rounded-3xl mx-auto w-[70%]"
+                        src="https://w0.peakpx.com/wallpaper/324/707/HD-wallpaper-monstera-leaves-plant-green-u-16-9-background.jpg"
+                        alt="">
+                </div>
+                <div class="description w-[50%]">
+                    <p class="">Popular Monstera Varieties
+                        <br>
+                        • Monstera deliciosa: The classic, large-leafed variety with deep splits and holes that can grow
+                        quite massive.
+                        <br>
+                        • Monstera adansonii: Also called the "Monkey Mask," a smaller vining species with closed holes
+                        in
+                        the leaves rather than open slits.
+                        <br>
+                        • Variegated Cultivars: Highly sought-after collector plants like the Monstera Albo Variegata
+                        (white
+                        and green splashes) and Thai Constellation (creamy speckles).
+                    </p>
+                </div>
+            </div>
+            <div class="section-middle">
+                <h2 class="text-center text-3xl mt-10">Monstera Collection</h2>
+            </div>
+            <div class="section-2 mt-10">
+                <div class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-5">
+                    <div class="box-card shadow-2xl rounded-4xl overflow-hidden">
+                        <div class="status mb-2 ml-4 text-center w-[100px] h-[30px] bg-lime-100 rounded-[15px]">In Stock</div>
+                        <div class="flex justify-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxFmxac1revg1zaJ1TRuWTs_B0XFa2RK6Zzba3QeE7CQ&s=10"
+                                class=" w-[300px] h-[300px] rounded-2xl" alt="">
+                        </div>
+                        <div class="title mt-2 mb-2 ml-4">Monstera deliciosa</div>
+                        <div class="price mb-2 ml-4">$14.99</div>
+                        <div class="detail border-2 rounded-[10px] w-[200px] h-[30px] mx-auto text-center">
+                            <a href="">Details</a>
+                        </div>
+                    </div>
+                    <div class="box-card shadow-2xl rounded-4xl overflow-hidden">
+                        <div class="status mb-2 ml-4 text-center w-[100px] h-[30px] bg-lime-100 rounded-[15px]">In Stock</div>
+                        <div class="flex justify-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxFmxac1revg1zaJ1TRuWTs_B0XFa2RK6Zzba3QeE7CQ&s=10"
+                                class=" w-[300px] h-[300px] rounded-2xl" alt="">
+                        </div>
+                        <div class="title mt-2 mb-2 ml-4">Monstera deliciosa</div>
+                        <div class="price mb-2 ml-4">$14.99</div>
+                        <div class="detail border-2 rounded-[10px] w-[200px] h-[30px] mx-auto text-center">
+                            <a href="">Details</a>
+                        </div>
+                    </div>
+                    <div class="box-card shadow-2xl rounded-4xl overflow-hidden">
+                        <div class="status-3 mb-2 ml-4 text-center w-[100px] h-[30px] rounded-[15px]">Out of Stock</div>
+                        <div class="flex justify-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxFmxac1revg1zaJ1TRuWTs_B0XFa2RK6Zzba3QeE7CQ&s=10"
+                                class=" w-[300px] h-[300px] rounded-2xl" alt="">
+                        </div>
+                        <div class="title mt-2 mb-2 ml-4">Monstera deliciosa</div>
+                        <div class="price mb-2 ml-4">$14.99</div>
+                        <div class="detail border-2 rounded-[10px] w-[200px] h-[30px] mx-auto text-center">
+                            <a href="">Details</a>
+                        </div>
+                    </div>
+                    <div class="box-card shadow-2xl rounded-4xl overflow-hidden">
+                        <div class="status mb-2 ml-4 text-center w-[100px] h-[30px] bg-amber-200 rounded-[15px]">Low Stock</div>
+                        <div class="flex justify-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxFmxac1revg1zaJ1TRuWTs_B0XFa2RK6Zzba3QeE7CQ&s=10"
+                                class=" w-[300px] h-[300px] rounded-2xl" alt="">
+                        </div>
+                        <div class="title mt-2 mb-2 ml-4">Monstera deliciosa</div>
+                        <div class="price mb-2 ml-4">$14.99</div>
+                        <div class="detail border-2 rounded-[10px] w-[200px] h-[30px] mx-auto text-center">
+                            <a href="">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+</div>
+    </div>
+    <footer>
+        <div class="footer-1"></div>
+        <div class="footer-2"></div>
+        <div class="footer-3"></div>
+    </footer>
+</body>
+
+</html>
